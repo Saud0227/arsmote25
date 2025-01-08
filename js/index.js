@@ -1,4 +1,4 @@
-document.getElementById("menu-button").addEventListener("click", (event) => {
+document.getElementById("menu-button").addEventListener("click", () => {
     // get nav element
     const nav = document.getElementsByTagName("nav")[0];
     // get header element
