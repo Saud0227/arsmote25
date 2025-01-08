@@ -10,7 +10,11 @@ document.getElementById("menu-button").addEventListener("click", () => {
     if (active === "true") {
         nav.setAttribute("active", "false")
     } else {
-        nav.style.top = header.offsetHeight + "px";
+        let dist = Number(header.offsetHeight).toString();
+
+        document.getElementById("debug").innerHTML = dist;
+
+        nav.style.top = dist + "px";
         nav.setAttribute("active", "true")
     }
 
