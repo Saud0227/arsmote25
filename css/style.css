@@ -550,6 +550,10 @@ footer > p {
         grid-area: img;
     }
 
+    a.nav-item {
+        min-height: 40px;
+    }
+
     a.nav-item:last-of-type {
         margin: 0 20px;
     }
