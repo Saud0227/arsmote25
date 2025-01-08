@@ -12,8 +12,6 @@ document.getElementById("menu-button").addEventListener("click", () => {
     } else {
         let dist = Number(header.offsetHeight).toString();
 
-        document.getElementById("debug").innerHTML = dist;
-
         nav.style.top = dist + "px";
         nav.setAttribute("active", "true")
     }
