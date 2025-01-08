@@ -239,7 +239,8 @@ section {
 }
 
 section.text {
-    height: 15vh;
+    min-height: calc(15vh - 20px);
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -251,6 +252,7 @@ section.text > p {
     font-size: 1.5rem;
     font-style: italic;
     color: var(--granite);
+    text-align: center;
 }
 
 
@@ -550,5 +552,9 @@ footer > p {
 
     a.nav-item:last-of-type {
         margin: 0 20px;
+    }
+
+    div.spacer.large {
+        height: 5vh;
     }
 }
