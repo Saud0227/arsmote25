@@ -481,9 +481,10 @@ ul.compact > li {
 
 footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 5vh;
+    min-height: 5vh;
     background-color: var(--coal);
 }
 
@@ -496,6 +497,10 @@ footer > p {
     margin: 0;
     font-size: 1rem;
     color: var(--granite);
+}
+
+footer a {
+    color: var(--magenta);
 }
 
 /* When mobile */
